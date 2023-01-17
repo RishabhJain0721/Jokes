@@ -8,7 +8,7 @@
     <title>Jokes</title>
 </head>
 <body>
-    <h1 class="heading">Random Jokes</h1>
+    <h1 class="heading">Jokes Terminal🐲</h1>
 
     
     <div id="joke">
@@ -18,9 +18,14 @@
         <% if(Flag==2){ %>
             <h2><%= Setup %></h2>
             <h2><%= Delivery %></h2>
-        <% } %>    
+        <% } %>
+        <div class="container">
+            <div class="buttonDiv">
+                <button id="btn" onClick="window.location.reload();">Get Joke</button>
+            </div>  
+        </div>
+          
     </div>
-    <!-- <button id="btn">Get Joke</button> -->
     <script src="app.js"></script>
 </body>
 </html>
